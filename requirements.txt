@@ -1,0 +1,15 @@
+# MusicToLight v4 - minimal runtime dependencies (Audio core only)
+# Python >= 3.9 recommended
+
+# --- Core audio ---
+sounddevice==0.4.6
+numpy>=1.25
+
+# --- Optional helpers (safe to install now, used later) ---
+# Flask for GUI / control interface
+flask>=3.0
+# Redis bridge for live parameter updates
+redis>=5.0
+# pygame for HDMI visuals (planned)
+pygame>=2.6
+# scipy / aubio will be added later if spectral analysis returns

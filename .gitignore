@@ -1,2 +1,19 @@
-/.idea/
-/vids/
+# Python venv
+venv/
+.env/
+*.pyc
+__pycache__/
+*.pyo
+
+# System / Editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Logs, cache
+*.log
+.cache/
+
+# Videos
+vids/
